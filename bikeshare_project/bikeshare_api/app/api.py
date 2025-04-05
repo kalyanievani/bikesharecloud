@@ -19,7 +19,7 @@ from app.config import settings
 
 api_router = APIRouter()
 
-
+#Just a comment
 @api_router.get("/health", response_model=schemas.Health, status_code=200)
 def health() -> dict:
     """
