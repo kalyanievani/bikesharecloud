@@ -2,10 +2,10 @@
 FROM python:3.10-slim
 
 # copy application files
-ADD /bikeshare_model_api /bikeshare_model_api/
+ADD /bikeshare_api /bikeshare_api/
 
 # specify working directory
-WORKDIR /bikeshare_model_api
+WORKDIR /bikeshare_api
 
 # update pip
 RUN pip install --upgrade pip
